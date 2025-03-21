@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -109,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -124,18 +143,24 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./epi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Study designs</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamental epidemiology</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bias.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./con_effect_modification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./study_design.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
   </div>
 </li>
@@ -236,9 +261,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>I am on a journey to pursue my master’s degree. I started writing this book as a way to summarize what I have learned from the course. It will be basic and may contain some errors or mistakes. If you have time to go through it, I would be grateful for your feedback. Most of the content here is taken from the Distant Learning Epidemiology Master’s Programme provided by <a href="https://www.lshtm.ac.uk/study/courses/masters-degrees/epidemiology-online#overview">London School of Hygene and Tropical Medicine</a>, with some modifications taken from the Introduction to Biostatistics course provided by Prof.&nbsp;Ronald Geskus and his team at Oxford University Clinical Research Unit, Ho Chi Minh.</p>
+<p>I am on a journey to pursue my master’s degree. I started writing this notes as a way to summarize what I have learned from the course. It will be basic and may contain some errors or mistakes. If you have time to go through it, I would be grateful for your feedback. Most of the content here is taken from the Distant Learning Epidemiology Master’s Programme provided by <a href="https://www.lshtm.ac.uk/study/courses/masters-degrees/epidemiology-online#overview">London School of Hygene and Tropical Medicine</a>, with some modifications taken from the book Modern Epidemiology, 4th edition <span class="citation" data-cites="lash_modern_2021">(<a href="references.html#ref-lash_modern_2021" role="doc-biblioref">Lash et al. 2021</a>)</span> and the Introduction to Biostatistics course provided by Prof.&nbsp;Ronald Geskus and his team at Oxford University Clinical Research Unit, Ho Chi Minh.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-lash_modern_2021" class="csl-entry" role="listitem">
+Lash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth J. Rothman. 2021. <em>Modern Epidemiology.</em> Fourth edition / Timothy L. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman. Philadelphia: Wolters Kluwer.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -480,7 +510,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

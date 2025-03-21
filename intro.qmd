@@ -1,35 +1,5 @@
-# Introduction
+# Introduction {.unnumbered}
 
-## What is Epidemiology?
 
-> "The study of the occurrence and distribution of health-related events, states, and processes in specified populations, including the study of the determinants influencing such processes, and the application of this knowledge to control relevant health problems." [@porta2014]
 
-**Comparison is fundamental to epidemiology** Example:
 
-::::: grid
-::: g-col-6
-![](images/John_Snow.jpg) 
-:::
-
-::: g-col-6
-![](images/john_snow_pump.jpg)
-:::
-:::::
-
-**The two key elements** that we measure in most epidemiological studies are the exposure and the outcome.
-
--   The exposure (sometimes called risk factor or determinant) is any factor that may influence the outcome.
-
--   The outcome is the disease, or event, or health-related state, that we are interested in.
-
-## what is the role of Epidemiology?
-
-Epidemiology has four major functions:
-
--   to **describe** patterns of health and disease within populations
-
--   to **interpret** these differences
-
--   to **apply** our results to public health practice, and
-
--   to **evaluate** the effect of health-related interventions

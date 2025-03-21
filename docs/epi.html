@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fundamental Epidemiology Study Designs - 2&nbsp; Overview of Study designs</title>
+<title>Fundamental Epidemiology Study Designs - 1&nbsp; Fundamental epidemiology</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -74,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./epi.html">Basic concepts</a></li><li class="breadcrumb-item"><a href="./epi.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Study designs</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./epi.html">Basic concepts</a></li><li class="breadcrumb-item"><a href="./epi.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamental epidemiology</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -108,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -123,18 +142,24 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./epi.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Study designs</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamental epidemiology</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bias.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./con_effect_modification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./study_design.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
   </div>
 </li>
@@ -193,14 +218,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-epidemiology" id="toc-what-is-epidemiology" class="nav-link active" data-scroll-target="#what-is-epidemiology"><span class="header-section-number">1.1</span> What is Epidemiology?</a></li>
+  <li><a href="#what-is-the-role-of-epidemiology" id="toc-what-is-the-role-of-epidemiology" class="nav-link" data-scroll-target="#what-is-the-role-of-epidemiology"><span class="header-section-number">1.2</span> what is the role of Epidemiology?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Study designs</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamental epidemiology</span></h1>
 </div>
 
 
@@ -215,9 +247,63 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="images/study_types.gif" class="img-fluid"></p>
+<section id="what-is-epidemiology" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="what-is-epidemiology"><span class="header-section-number">1.1</span> What is Epidemiology?</h2>
+<blockquote class="blockquote">
+<p>“The study of the occurrence and distribution of health-related events, states, and processes in specified populations, including the study of the determinants influencing such processes, and the application of this knowledge to control relevant health problems.” <span class="citation" data-cites="porta_dictionary_2014">(<a href="references.html#ref-porta_dictionary_2014" role="doc-biblioref">Porta 2014</a>)</span></p>
+</blockquote>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/John_Snow.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">John Snow</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/john_snow_pump.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">His study pump</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p><strong>Jhon Snow</strong> example: For short, in 19th century, cholera expand all over Europe and UK. Estimated 15,000 recorded deaths in London in 1848-9. Snow (an anaesthetist) came up with some hypothesis:</p>
+<ul>
+<li><p>that cholera can be communicated from the sick to the healthy</p></li>
+<li><p>that disease is communicated by “morbid matter” which has the property of multiplying in the body of the person it attacks</p></li>
+<li><p>that the morbid matter producing cholera must be introduced into the alimentary canal</p></li>
+<li><p>water supplies appeared to be able to disseminate the morbid matter from the sick to the healthy</p></li>
+</ul>
+<p>In 1853, cholera reappeared and Snow started his study. First he did a descriptive study by collecting information on cholera deaths, where they live and the population of the area. Then he look at the association of the water sources and the risk of death from cholera.</p>
+<p><strong>Comparison</strong> is fundamental to epidemiology Just as Snow did, by looking at the difference of risk between the groups, we can find the risk factors of a disease.</p>
+<p><strong>The two key elements</strong> In most epidemiological studies, we would measure 2 key elements which are the exposure and the outcome.</p>
+<ul>
+<li><p>The exposure (sometimes called risk factor or determinant) is any factor that may influence the outcome.</p></li>
+<li><p>The outcome is the disease, or event, or health-related state, that we are interested in.</p></li>
+</ul>
+</section>
+<section id="what-is-the-role-of-epidemiology" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="what-is-the-role-of-epidemiology"><span class="header-section-number">1.2</span> what is the role of Epidemiology?</h2>
+<p>Epidemiology has four major functions:</p>
+<ul>
+<li><p>to <strong>describe</strong> patterns of health and disease within populations</p></li>
+<li><p>to <strong>interpret</strong> these differences</p></li>
+<li><p>to <strong>apply</strong> our results to public health practice, and</p></li>
+<li><p>to <strong>evaluate</strong> the effect of health-related interventions</p></li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-porta_dictionary_2014" class="csl-entry" role="listitem">
+Porta, Miquel. 2014. <em>A Dictionary of Epidemiology.</em> Oxford University Press.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -456,12 +542,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./bias.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Untitled</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Untitled</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

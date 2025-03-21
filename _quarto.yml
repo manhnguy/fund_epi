@@ -16,6 +16,7 @@ book:
         - epi.qmd
         - bias.qmd
         - con_effect_modification.qmd
+        - study_design.qmd
     - part: Study designs
       chapters: 
         - cross_sectional.qmd

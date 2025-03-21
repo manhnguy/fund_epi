@@ -1,6 +1,49 @@
 ---
-title: "Overview of Study designs"
+title: "Fundamental epidemiology"
 format: html
 ---
 
-![](images/study_types.gif)
+## What is Epidemiology?
+
+> "The study of the occurrence and distribution of health-related events, states, and processes in specified populations, including the study of the determinants influencing such processes, and the application of this knowledge to control relevant health problems." [@porta_dictionary_2014]
+
+::: {layout-ncol="2" layout-valign="bottom"}
+![John Snow](images/John_Snow.jpg)
+
+![His study pump](images/john_snow_pump.jpg)
+:::
+
+**Jhon Snow** example: 
+For short, in 19th century, cholera expand all over Europe and UK. Estimated 15,000 recorded deaths in London in 1848-9. Snow (an anaesthetist) came up with some hypothesis:
+
+-   that cholera can be communicated from the sick to the healthy
+
+-   that disease is communicated by "morbid matter" which has the property of multiplying in the body of the person it attacks
+
+-   that the morbid matter producing cholera must be introduced into the alimentary canal
+
+-   water supplies appeared to be able to disseminate the morbid matter from the sick to the healthy
+
+In 1853, cholera reappeared and Snow started his study. First he did a descriptive study by collecting information on cholera deaths, where they live and the population of the area. Then he look at the association of the water sources and the risk of death from cholera.  
+
+**Comparison** is fundamental to epidemiology
+Just as Snow did, by looking at the difference of risk between the groups, we can find the risk factors of a disease.  
+
+**The two key elements** 
+In most epidemiological studies, we would measure 2 key elements which are the exposure and the outcome.
+
+-   The exposure (sometimes called risk factor or determinant) is any factor that may influence the outcome.
+
+-   The outcome is the disease, or event, or health-related state, that we are interested in.
+
+## what is the role of Epidemiology?
+
+Epidemiology has four major functions:
+
+-   to **describe** patterns of health and disease within populations
+
+-   to **interpret** these differences
+
+-   to **apply** our results to public health practice, and
+
+-   to **evaluate** the effect of health-related interventions
