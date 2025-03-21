@@ -1,0 +1,6 @@
+---
+title: "Overview of Study designs"
+format: html
+---
+
+![](images/study_types.gif)
