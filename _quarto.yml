@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 book:
+  favicon: "images/profile.png"
   title: "Fundamental Epidemiology Study Designs"
   author: "Manh Nguyen Duc"
   date: "3/20/2025"
