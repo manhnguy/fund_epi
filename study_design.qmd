@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Study design"
 ---
 
 ![](images/study_types.gif)

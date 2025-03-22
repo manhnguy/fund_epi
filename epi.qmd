@@ -27,7 +27,7 @@ For short, in 19th century, cholera expand all over Europe and UK. Estimated 15,
 In 1853, cholera reappeared and Snow started his study. First he did a descriptive study by collecting information on cholera deaths, where they live and the population of the area. Then he look at the association of the water sources and the risk of death from cholera.  
 
 **Comparison** is fundamental to epidemiology
-Just as Snow did, by looking at the difference of risk between the groups, we can find the risk factors of a disease.  
+Just as Snow did, by looking at the difference of risk between the groups using different water sources, we can find the risk factors of a disease. However, in reality, comparison is also the most challenge of epidemiology with many sources of confusion and error. 
 
 **The two key elements** 
 In most epidemiological studies, we would measure 2 key elements which are the exposure and the outcome.
@@ -47,3 +47,8 @@ Epidemiology has four major functions:
 -   to **apply** our results to public health practice, and
 
 -   to **evaluate** the effect of health-related interventions
+
+## Basic Epidemilogical study types
+![](images/study_types.gif){fig-align="center"}
+
+This epidemiological studies family tree is simpler than the one introduced by Ronald.

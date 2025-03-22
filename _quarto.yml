@@ -14,8 +14,11 @@ book:
     - part: Basic concepts
       chapters: 
         - epi.qmd
+        - occurrence.qmd
+        - measures_effect.qmd
         - bias.qmd
         - con_effect_modification.qmd
+        - error.qmd
         - study_design.qmd
     - part: Study designs
       chapters: 
