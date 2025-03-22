@@ -40,5 +40,7 @@ format:
   pdf:
     documentclass: scrreprt
 
-editor: visual
+comments:
+  giscus:
+    repo: manhnguy/fund_epi
 
