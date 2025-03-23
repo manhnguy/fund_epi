@@ -1,5 +1,7 @@
 # Introduction {.unnumbered}
 
+**Epidemiology** is a young science that has developed particularly rapidly over the last 50 years, as new techniques of analysis have been developed. Much progress has been made, particularly in understanding the causes of "non-communicable" diseases (for example, the links between H.pylori and gastric ulcer, and between EBV (Epstein-Barr virus) and Burkitts lymphoma).
 
+However new challenges continue to emerge. In recent decades, severe acute respiratory syndrome (SARS), drug resistant tuberculosis and methicillin-resistant *staphylococcus aureus* (MRSA) have all emerged as challenges to the public health. As an epidemiologist, you are unlikely to become bored!
 
-
+Source: [EPM 101 LSHTM ](https://www.lshtm.ac.uk/study/courses/masters-degrees/epidemiology-online#overview)
