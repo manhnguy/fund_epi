@@ -54,9 +54,9 @@ The incidence risk is a measure of **NEW** cases, and point prevalence a measure
 
 :::
 
-**Mortality rates** (or death rates) are a measure of the incidence risk of dying during a defined period of time.
+**Mortality rate** (or death rate) is a measure of the incidence risk of dying during a defined period of time.
 
-**Attack rates** is a special kind of incidence risk. It is used in the context of outbreaks or epidemics of infectious diseases. It is the number of new cases occurring in the duration of the outbreak divided by the population at risk in the start of the outbreak.
+**Attack rate** is a special kind of incidence risk. It is used in the context of outbreaks or epidemics of infectious diseases. It is the number of new cases occurring in the duration of the outbreak divided by the population at risk in the start of the outbreak.
 
 **Case fatality rate** the proportion of cases of a specified condition that are fatal within a specified time.
 
@@ -66,6 +66,8 @@ $$\text{Case fatality rate} = \frac{\text{Number of deaths from a disease(in a g
 ::: callout-important
 
 Even though these measures are called rates but actually they are risk. The denominator does not include time (e.g person-year) 
+
+$$\text{Mortality rate} = \text{(Incidence risk ) x (Case fatality rate)}$$
 
 :::
 
