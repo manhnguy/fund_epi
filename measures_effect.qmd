@@ -42,6 +42,7 @@ For rare outcomes in static populations (case-control studies), Odds ratio is al
 ## Interpretation of Ratio Measures (Association)
 
 To estimate an association, we need to answer 2 questions: 
+
 **Is there an association?** 
 
 - Relative Risk = 1 : No association
@@ -51,11 +52,9 @@ To estimate an association, we need to answer 2 questions:
 - Relative Risk < 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a **protective factor** for the outcome
 
 
+and 
 
-
-
-
-and *How does this association mean?*
+**How does this association mean?**
 
 
 ## Difference measures
