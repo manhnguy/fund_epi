@@ -1,3 +1,79 @@
 ---
 title: "Measures of Effect/Association"
 ---
+As mentioned in [Fundamental Epidemiology](epi.qmd) section, comparison is fundamental in epidemiological studies. When interpreting the results from both observational and analytical studies, we typically use some sort of comparison. 
+
+In analytical studies, we often aim investigate risk factors of an outcome. If we suspect that a particular factor may be causing a specific outcome, we first look for an association between the factor and the outcome. To do this, we compare the occurrence of the outcome in a group of people that has been 'exposed' to the factor, with the occurrence in a group of people that has not been 'exposed'. We use ratio measures or difference measures. 
+
+## Ratio measures
+
+**Ratio**: The value obtained by dividing one quantity by another [@porta_dictionary_2014]. We can use the ratio to compare any type of measure occurrence: Prevalence, Incidence or Odds between 2 populations.
+
+
+**Prevalence ratio**
+
+The prevalence ratio is sometimes used in health-service planning to compare the burden of a condition in different groups. Prevalence is less useful than incidence in trying to establish the effect of an exposure, because prevalence depends on both incidence and duration
+
+$$\text{Prevalence ratio} = \frac{\text{prevalence in population or group A}}{\text{prevalence in population or group B}}$$
+
+**Risk ratio**
+
+$$\text{RR} = \frac{\text{incidence risk in exposed population}}{\text{incidence risk in unexposed population}}$$
+
+**Rate ratio**
+
+$$\text{RR} = \frac{\text{incidence rate in exposed population}}{\text{incidence rate in unexposed population}}$$
+
+
+**Odds ratio**
+
+$$\text{OR} = \frac{\text{odds of outcome in exposed individuals}}{\text{odds of outcome in unexposed individuals}}$$
+
+**Odds ratio in Case-Control Study**
+
+$$\text{OR} = \frac{\text{odds of exposure in cases (people with the outcome)}}{\text{odds of exposure in controls (people without the outcome)}}$$
+
+::: callout-important
+
+For rare outcomes in static populations (case-control studies), Odds ratio is almost similar to Risk ratio and rate ratio. Some people just call them all **Relative risk**. 
+
+:::
+
+## Interpretation of Ratio Measures (Association)
+
+To estimate an association, we need to answer 2 questions: 
+**Is there an association?** 
+
+- Relative Risk = 1 : No association
+
+- Relative Risk > 1 : The risk/rate/odds of the outcome in the exposed group is greater than that in the unexposed group
+
+- Relative Risk < 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a **protective factor** for the outcome
+
+
+
+
+
+
+and *How does this association mean?*
+
+
+## Difference measures
+
+
+## Comparison between Ratio and Difference measures
+
+
+
+
+::: callout-important
+
+**Terminology**
+
+There are three commonly used measures of **disease frequency** in epidemiology: we have called these the odds, the risk, and the rate. The numerator in all of three of these is the number of cases occurring within a defined period of time. The difference is in the denominator: the odds uses the number of non-cases within the same time period, the risk uses the number of individuals at the beginning of the follow-up period, and the rate uses the person-time at risk during the follow-up period. The ratio of odds, risks or rates between two groups gives the respective **measures of effect**: the odds ratio, the risk ratio and the rate ratio.
+
+In the literature, however, it is common to see these terms used interchangeably, which can cause confusion. In particular, the term **risk** is often used generically to refer to any of the above measures of **disease frequency**. To complicate things further, some of these measures have other names: the risk is also sometimes referred to as the cumulative risk, while the rate is sometimes known as the incidence density. In infectious disease epidemiology, the force of infection is used to describe the rate at which susceptible individuals become infected.
+
+**Make it clear what you are measuring in your study**
+
+:::

@@ -30,7 +30,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Fundamental Epidemiology Study Designs",
+    "title": "Fundamental Epidemiological Study Designs",
     "section": "",
     "text": "Preface\nI am on a journey to pursue my master’s degree. I started writing this notes as a way to summarize what I have learned from the course. It will be basic and may contain some errors or mistakes. If you have time to go through it, I would be grateful for your feedback. Most of the content here is taken from the Distant Learning Epidemiology Master’s Programme provided by London School of Hygene and Tropical Medicine (LSHTM), with some modifications taken from the book Modern Epidemiology, 4th edition (Lash et al. 2021) and the Introduction to Biostatistics course provided by Prof. Ronald Geskus and his team at Oxford University Clinical Research Unit, Ho Chi Minh.\n\n\n\n\nLash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth J. Rothman. 2021. Modern Epidemiology. Fourth edition / Timothy L. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman. Philadelphia: Wolters Kluwer."
   },
@@ -39,7 +39,7 @@
     "href": "intro.html",
     "title": "Introduction",
     "section": "",
-    "text": "The concept of population in epidemiology\nEpidemiology is a young science that has developed particularly rapidly over the last 50 years, as new techniques of analysis have been developed. Much progress has been made, particularly in understanding the causes of “non-communicable” diseases (for example, the links between H.pylori and gastric ulcer, and between EBV (Epstein-Barr virus) and Burkitts lymphoma).\nHowever new challenges continue to emerge. In recent decades, severe acute respiratory syndrome (SARS), drug resistant tuberculosis and methicillin-resistant staphylococcus aureus (MRSA) have all emerged as challenges to the public health. As an epidemiologist, you are unlikely to become bored!\nSource: EPM 101 LSHTM"
+    "text": "Epidemiology is a young science that has developed particularly rapidly over the last 50 years, as new techniques of analysis have been developed. Much progress has been made, particularly in understanding the causes of “non-communicable” diseases (for example, the links between H.pylori and gastric ulcer, and between EBV (Epstein-Barr virus) and Burkitts lymphoma).\nHowever new challenges continue to emerge. In recent decades, severe acute respiratory syndrome (SARS), drug resistant tuberculosis and methicillin-resistant staphylococcus aureus (MRSA) have all emerged as challenges to the public health. As an epidemiologist, you are unlikely to become bored!\nSource: EPM 101 LSHTM"
   },
   {
     "objectID": "occurrence.html#prevalence",
@@ -82,5 +82,40 @@
     "title": "2  Measures of Occurrence",
     "section": "2.5 Comparison",
     "text": "2.5 Comparison\nThe prevalence (P) quantifies all the people with an outcome at a point in time. It is influenced by the occurrence of new cases (incidence, I) and the duration of each case (D): P= I x D.\nAs so many factors influence prevalence, it is difficult to interpret comparative studies of the prevalence of the same condition in different settings.\nIt can also be difficult to interpret the reasons for a change in the prevalence of a condition in the same location.\nHowever, prevalence studies provide useful information about the state of health of a community at a particular point in time, and so are useful for evaluating health-care needs and planning health service provision.\nThis is particularly important for chronic conditions that require health care resources throughout their duration.\nThe prevalence can also be used to evaluate the impact of preventative measures aimed at reducing the burden of a disease or condition in a community.\nHowever, because of the number of factors that influence prevalence, any comparative results need to be interpreted with caution.\n\n\n\n\n\n\nImportant\n\n\n\nPrevalence is useful for chronic diseases that require health resource. It can be used for evaluating health-care needs and planning.\nIncidence risk provides good evidence for studying causality when the outcome of interest is uncommon or acute diseases and the population is static.\nIncidence rate is useful when the population is dynamic, the outcome of interest is common or the population at high risk(the number of new cases will be relatively high) or can occur many times.\n\n\n\n\n\n\nLash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth J. Rothman. 2021. Modern Epidemiology. Fourth edition / Timothy L. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman. Philadelphia: Wolters Kluwer.\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford University Press."
+  },
+  {
+    "objectID": "measures_effect.html",
+    "href": "measures_effect.html",
+    "title": "3  Measures of Effect/Association",
+    "section": "",
+    "text": "As mentioned in Fundamental Epidemiology section"
+  },
+  {
+    "objectID": "measures_effect.html#ratio-measures",
+    "href": "measures_effect.html#ratio-measures",
+    "title": "3  Measures of Effect/Association",
+    "section": "3.1 Ratio measures",
+    "text": "3.1 Ratio measures\nRatio: The value obtained by dividing one quantity by another (Porta 2014). We can use the ratio to compare any type of measure occurrence: Prevalence, Incidence or Odds between 2 populations.\nPrevalence ratio\nThe prevalence ratio is sometimes used in health-service planning to compare the burden of a condition in different groups. Prevalence is less useful than incidence in trying to establish the effect of an exposure, because prevalence depends on both incidence and duration\n\\[\\text{Prevalence ratio} = \\frac{\\text{prevalence in population or group A}}{\\text{prevalence in population or group B}}\\]\nRisk ratio\n\\[\\text{RR} = \\frac{\\text{incidence risk in exposed population}}{\\text{incidence risk in unexposed population}}\\]\nRate ratio\n\\[\\text{RR} = \\frac{\\text{incidence rate in exposed population}}{\\text{incidence rate in unexposed population}}\\]\nOdds ratio\n\\[\\text{OR} = \\frac{\\text{odds of outcome in exposed individuals}}{\\text{odds of outcome in unexposed individuals}}\\]\nOdds ratio in Case-Control Study\n\\[\\text{OR} = \\frac{\\text{odds of exposure in cases (people with the outcome)}}{\\text{odds of exposure in controls (people without the outcome)}}\\]\n\n\n\n\n\n\nImportant\n\n\n\nFor rare outcomes in static populations (case-control studies), Odds ratio is almost similar to Risk ratio and rate ratio. Some people just call them all Relative risk."
+  },
+  {
+    "objectID": "measures_effect.html#difference-measures",
+    "href": "measures_effect.html#difference-measures",
+    "title": "3  Measures of Effect/Association",
+    "section": "3.3 Difference measures",
+    "text": "3.3 Difference measures"
+  },
+  {
+    "objectID": "measures_effect.html#comparison-between-ratio-and-difference-measures",
+    "href": "measures_effect.html#comparison-between-ratio-and-difference-measures",
+    "title": "3  Measures of Effect/Association",
+    "section": "3.4 Comparison between Ratio and Difference measures",
+    "text": "3.4 Comparison between Ratio and Difference measures\n\n\n\n\n\n\nImportant\n\n\n\nTerminology\nThere are three commonly used measures of disease frequency in epidemiology: we have called these the odds, the risk, and the rate. The numerator in all of three of these is the number of cases occurring within a defined period of time. The difference is in the denominator: the odds uses the number of non-cases within the same time period, the risk uses the number of individuals at the beginning of the follow-up period, and the rate uses the person-time at risk during the follow-up period. The ratio of odds, risks or rates between two groups gives the respective measures of effect: the odds ratio, the risk ratio and the rate ratio.\nIn the literature, however, it is common to see these terms used interchangeably, which can cause confusion. In particular, the term risk is often used generically to refer to any of the above measures of disease frequency. To complicate things further, some of these measures have other names: the risk is also sometimes referred to as the cumulative risk, while the rate is sometimes known as the incidence density. In infectious disease epidemiology, the force of infection is used to describe the rate at which susceptible individuals become infected.\nMake it clear what you are measuring in your study\n\n\n\n\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford University Press."
+  },
+  {
+    "objectID": "measures_effect.html#interpretation-of-ratio-measures-association",
+    "href": "measures_effect.html#interpretation-of-ratio-measures-association",
+    "title": "3  Measures of Effect/Association",
+    "section": "3.2 Interpretation of Ratio Measures (Association)",
+    "text": "3.2 Interpretation of Ratio Measures (Association)\nTo estimate an association, we need to answer 2 questions: Is there an association?\n\nRelative Risk = 1 : No association\nRelative Risk &gt; 1 : The risk/rate/odds of the outcome in the exposed group is greater than that in the unexposed group\nRelative Risk &lt; 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a protective factor for the outcome\n\nand How does this association mean?"
   }
 ]
