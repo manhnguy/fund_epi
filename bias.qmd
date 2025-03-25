@@ -45,13 +45,13 @@ Example:
 
 ### Information Bias
 
-#### Reporting bias
+**Reporting bias**
 
 - when study participants with a specific health outcome report previous exposures with a different degree of accuracy to those without the outcome, or
 
 - when study participants who have experienced a specific exposure report subsequent health events with a different degree of accuracy to those who have not experienced the exposure.
 
-#### Observer bias
+**Observer bias**
 
 - in case-control or cross-sectional studies, when the accuracy of exposure data recorded by the investigator differs systematically between study participants in different outcome groups
 or
