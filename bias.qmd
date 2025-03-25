@@ -1,3 +1,94 @@
 ---
 title: "Bias"
 ---
+## What is Bias
+
+There are more than 20 types of bias in the Dictionary of Epidemiology book (@porta_dictionary_2014). They are defined inconsistently in different fields. Some authors regard confounding as a type of bias. 
+
+In Epidemiology, bias refers to any systematic error in the design or conduct of an epidemiological study that results in an incorrect estimate of the association between exposure and outcome (risk of disease).
+
+In confounding, the associations do exist in the population of interest,  however, they are not causal but rather explained by association with another factor. The effect of confounding can be controlled in our analysis.
+
+By contrast, when bias occurs the associations are not ‘there’ at all, they only exist within your study. A biased study is one that does not give a true representation of the situation we want to describe or the association we want to analyse. We cannot control for the effect of bias in our analysis. Instead, we need to identify potential sources of bias and try to minimise them. 
+
+In this section, I will summary 2 main types of bias: Selection bias and Information bias. 
+
+### Selection Bias
+
+Selection bias refers to error due to systematic differences in characteristics between those who take part in a study and those who do not, such that
+
+- the people who are selected to participate in a study are not representative of the reference population
+
+or, in analytic studies,
+
+- the comparison groups are not comparable
+
+**Descriptive studies** (cross-sectional or cohort studies): bias occurs if the study population is not representative of the source population (the population that we draw our study population from). In cross-sectional studies, selection bias may occur because rarely 100% of individuals participate, and if there are differences in characteristics between those who participate and those who do not.
+
+Example: 
+
+**Analytical Studies**:
+
+**1. Case control studies**
+
+- cases are not representative of all cases within a defined population (all eligible cases), or
+
+- controls are not representative of the population which produced the cases.
+
+**2. Cohort Studies**
+
+- poor choice of the unexposed group, or
+
+- differences in follow-up between the comparison groups
+
+**Missing data** can be considered as a form of selection bias. It is important to describe the extent and the patterns of missing data, comparing individuals with and without missing data for key variables. This helps us to make assumptions about the nature of the missing data, and to assess the effect the missingness could have on our analyses.
+
+### Information Bias
+
+#### Reporting bias
+
+- when study participants with a specific health outcome report previous exposures with a different degree of accuracy to those without the outcome, or
+
+- when study participants who have experienced a specific exposure report subsequent health events with a different degree of accuracy to those who have not experienced the exposure.
+
+#### Observer bias
+
+- in case-control or cross-sectional studies, when the accuracy of exposure data recorded by the investigator differs systematically between study participants in different outcome groups
+or
+
+- in cohort or intervention studies, when the accuracy of outcome data recorded by the investigator differs systematically between individuals in different exposure groups
+
+## Stratergies to minimise Bias
+
+### Avoiding selection bias
+
+- in descriptive studies, that study participants are representative of the target population and the response rates are as high as possible.
+
+- in case-control studies, that the controls represent the population which produced the cases.
+
+- in cohort studies, loss to follow-up is minimised.
+
+### Avoiding information bias
+
+- blinding of study participants (where feasible) helps to avoid recall bias
+
+- blinding of observers helps to prevent classification of exposure or outcome being influenced by knowledge of the other
+
+- using objective records to document exposure rather than relying on recall
+
+- collecting data on exposure as near as possible to the time of exposure (when recall is likely to be more accurate)
+
+- standardising questionnaires and training interviewers, so that all study participants are asked the same questions in the same way
+
+- good questionnaire design, for example using closed questions (i.e. questions with a limited range of possible answers)
+
+- using automated measuring devices to reduce observer bias
+
+
+
+
+
+
+
+
+

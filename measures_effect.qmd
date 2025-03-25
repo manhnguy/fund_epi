@@ -60,7 +60,7 @@ To estimate an association, we need to answer 2 questions:
 
 **How does this association mean?**
 
-To conclude the association between exposure and outcome, we need to consider other aspects: random error, bias, confounding. These aspects will be discussed more in the next sections. 
+To conclude the association between exposure and outcome, we need to consider other aspects: random error, bias, confounding. Bias and confounding will be discussed in more details in the following sections. Random error is related to estimates obtained by chance. We use Confidence Intervals to assess the level of certainty. 
 
 ![](images/association.jpg)
 
