@@ -82,8 +82,8 @@ $$\text{Incidence rate} = \frac{\text{Number of new cases in a defined time peri
 $$\text{Prevalence at year 7} = \frac{1}{3}$$
 $$\text{Incidence risk over 10 years perios} = \frac{3}{5}$$
 
-$$\text{Incidence risk over 10 years period} = \frac{3}{25}\text{per person-year}$$
-**Example 2:**
+$$\text{Incidence rate over 10 years period} = \frac{3}{25}\text{per person-year}$$
+**Example 2**: Incidence rate
 
 ![](images/incidence_rate.png){fig-align="center"}
 

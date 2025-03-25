@@ -1,5 +1,8 @@
 ---
 title: "Measures of Effect/Association"
+format:
+  html:
+    mermaid: {}
 ---
 As mentioned in [Fundamental Epidemiology](epi.qmd) section, comparison is fundamental in epidemiological studies. When interpreting the results from both observational and analytical studies, we typically use some sort of comparison. 
 
@@ -49,21 +52,50 @@ To estimate an association, we need to answer 2 questions:
 
 - Relative Risk > 1 : The risk/rate/odds of the outcome in the exposed group is greater than that in the unexposed group
 
-- Relative Risk < 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a **protective factor** for the outcome
+- Relative Risk < 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a **protective factor** for the outcome.
 
+**Example**
 
-and 
+**AND**
 
 **How does this association mean?**
 
+To conclude the association between exposure and outcome, we need to consider other aspects: random error, bias, confounding. These aspects will be discussed more in the next sections. 
+
+![](images/association.jpg)
 
 ## Difference measures
 
+$$\text{Absolute difference} = \text{occurrence (exposed) − occurrence (unexposed)}$$
+
+$$\text{Risk/Rate difference} = \text{Risk/Rate (exposed) − Risk/Rate (unexposed)}$$
+
+
+**Interpretation**
+
+The difference measures are useful when we already have information that suggests that there is a **causal relationship** between the exposure and the outcome. The difference measures sometimes is called **attributable risk** or rate. 
+
+- If the difference is **positive**, this estimates **the excess occurrence** of the outcome in the exposed group. When the causality is true, this equivalent to the number of cases in the exposed group that are **caused** by the exposure. 
+
+- If the difference is **negative**, this estimates **the reduction occurrence** of the outcome in the exposed group. When the causality is true, this equivalent to the number of cases in the exposed group that have been **prevented** by the exposure. 
+
+::: callout-important
+
+The difference measure does not give any information about the impact of the exposure on the number of cases in the population as a whole. This depends on the prevalence of the exposure in the population. 
+
+There are more concepts about attributable but I do not present in this material: Attributable fraction in the exposed group, preventable fraction, population attributable risk, population attributable fraction.
+
+:::
 
 ## Comparison between Ratio and Difference measures
 
+Ratio measures and difference measures are influenced by different factors and provide different types of information.
 
+**Ratio measures** estimate the strength of association between an exposure and an outcome. We use a ratio measure in analytical studies as one piece of evidence in judging whether an exposure causes an outcome.
 
+**Difference measures** quantify the difference in incidence between an exposed and an unexposed population. We use difference measures when *a causal association between an exposure and an outcome has already been established*, to estimate the risk that is attributable to exposure in the exposed group.
+
+The measures covered in this session are appropriate where the exposure measure is **a categorical variable**. They cannot, therefore, be used to analyse continuous exposure variables
 
 ::: callout-important
 

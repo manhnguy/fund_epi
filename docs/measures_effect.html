@@ -307,16 +307,45 @@ Important
 <ul>
 <li><p>Relative Risk = 1 : No association</p></li>
 <li><p>Relative Risk &gt; 1 : The risk/rate/odds of the outcome in the exposed group is greater than that in the unexposed group</p></li>
-<li><p>Relative Risk &lt; 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a <strong>protective factor</strong> for the outcome</p></li>
+<li><p>Relative Risk &lt; 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a <strong>protective factor</strong> for the outcome.</p></li>
 </ul>
-<p>and</p>
+<p><strong>Example</strong></p>
+<p><strong>AND</strong></p>
 <p><strong>How does this association mean?</strong></p>
+<p>To conclude the association between exposure and outcome, we need to consider other aspects: random error, bias, confounding. These aspects will be discussed more in the next sections.</p>
+<p><img src="images/association.jpg" class="img-fluid"></p>
 </section>
 <section id="difference-measures" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="difference-measures"><span class="header-section-number">3.3</span> Difference measures</h2>
+<p><span class="math display">\[\text{Absolute difference} = \text{occurrence (exposed) − occurrence (unexposed)}\]</span></p>
+<p><span class="math display">\[\text{Risk/Rate difference} = \text{Risk/Rate (exposed) − Risk/Rate (unexposed)}\]</span></p>
+<p><strong>Interpretation</strong></p>
+<p>The difference measures are useful when we already have information that suggests that there is a <strong>causal relationship</strong> between the exposure and the outcome. The difference measures sometimes is called <strong>attributable risk</strong> or rate.</p>
+<ul>
+<li><p>If the difference is <strong>positive</strong>, this estimates <strong>the excess occurrence</strong> of the outcome in the exposed group. When the causality is true, this equivalent to the number of cases in the exposed group that are <strong>caused</strong> by the exposure.</p></li>
+<li><p>If the difference is <strong>negative</strong>, this estimates <strong>the reduction occurrence</strong> of the outcome in the exposed group. When the causality is true, this equivalent to the number of cases in the exposed group that have been <strong>prevented</strong> by the exposure.</p></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The difference measure does not give any information about the impact of the exposure on the number of cases in the population as a whole. This depends on the prevalence of the exposure in the population.</p>
+<p>There are more concepts about attributable but I do not present in this material: Attributable fraction in the exposed group, preventable fraction, population attributable risk, population attributable fraction.</p>
+</div>
+</div>
 </section>
 <section id="comparison-between-ratio-and-difference-measures" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="comparison-between-ratio-and-difference-measures"><span class="header-section-number">3.4</span> Comparison between Ratio and Difference measures</h2>
+<p>Ratio measures and difference measures are influenced by different factors and provide different types of information.</p>
+<p><strong>Ratio measures</strong> estimate the strength of association between an exposure and an outcome. We use a ratio measure in analytical studies as one piece of evidence in judging whether an exposure causes an outcome.</p>
+<p><strong>Difference measures</strong> quantify the difference in incidence between an exposed and an unexposed population. We use difference measures when <em>a causal association between an exposure and an outcome has already been established</em>, to estimate the risk that is attributable to exposure in the exposed group.</p>
+<p>The measures covered in this session are appropriate where the exposure measure is <strong>a categorical variable</strong>. They cannot, therefore, be used to analyse continuous exposure variables</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
