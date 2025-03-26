@@ -131,5 +131,33 @@
     "title": "4  Bias",
     "section": "4.2 Stratergies to minimise Bias",
     "text": "4.2 Stratergies to minimise Bias\n\n4.2.1 Avoiding selection bias\n\nin descriptive studies, that study participants are representative of the target population and the response rates are as high as possible.\nin case-control studies, that the controls represent the population which produced the cases.\nin cohort studies, loss to follow-up is minimised.\n\n\n\n4.2.2 Avoiding information bias\n\nblinding of study participants (where feasible) helps to avoid recall bias\nblinding of observers helps to prevent classification of exposure or outcome being influenced by knowledge of the other\nusing objective records to document exposure rather than relying on recall\ncollecting data on exposure as near as possible to the time of exposure (when recall is likely to be more accurate)\nstandardising questionnaires and training interviewers, so that all study participants are asked the same questions in the same way\ngood questionnaire design, for example using closed questions (i.e. questions with a limited range of possible answers)\nusing automated measuring devices to reduce observer bias\n\n\n\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford University Press."
+  },
+  {
+    "objectID": "cross_sectional.html#design-and-why-do-cross-sectional-study",
+    "href": "cross_sectional.html#design-and-why-do-cross-sectional-study",
+    "title": "8  Cross-sectional study",
+    "section": "8.1 Design and why do Cross-sectional study?",
+    "text": "8.1 Design and why do Cross-sectional study?\nDesign\nIn a cross-sectional study, we measure the frequency of a particular exposure(s) and / or outcome(s) in a defined population at a particular point in time. Sometimes it is called prevalence study.\nIn a descriptive cross-sectional study, we simply describe the frequency of the exposure(s) or outcome(s) in a defined population.\nIn an analytic cross-sectional study, we simultaneously collect information on both the outcome of interest potential risk factor(s) in a defined population. We then compare the prevalence of the outcome in the people exposed to each risk factor with the prevalence in those not exposed.\nWhy do Cross-sectional study?\nDescriptive study\n\nas the study measures the prevalence, it is useful for health planners who need to know the burden of specific conditions in order to plan preventive and curative services.\nsome cross-sectional studies also collect data on the utilisation of preventive and curative services. it’s useful for predicting health care needs and establishing health-care priorities.\nSome studies collect information about the knowledge, attitudes and practices of a population in relation to a particular health-related outcome. it’s useful for the development of population-level health education campaigns.\n\n\n\n\n\n\n\nImportant\n\n\n\nCross-sectional studies are not suitable for describing the frequency of rare exposures or outcomes.\n\n\nAnalytical study\n\nas the study measures the prevalence at a particular time point, it does not provide strong evidence about the causality. It can be difficult to establish the time sequence of events: the exposure may be a consequence rather than a cause of the outcome (reverse causality)\nWe cannot use cross-sectional study to test a hypothesis. Instead, we use it to generate hypothesis."
+  },
+  {
+    "objectID": "cross_sectional.html#main-steps-in-conducting-cross-sectional-study",
+    "href": "cross_sectional.html#main-steps-in-conducting-cross-sectional-study",
+    "title": "8  Cross-sectional study",
+    "section": "8.2 Main steps in conducting Cross-sectional study",
+    "text": "8.2 Main steps in conducting Cross-sectional study\nStep 1: Defining the study question\nStep 2: Defining the target population\nStep 3: Selecting the study population\nStep 4: Collecting data\nStep 5: Analysing data\nStep 6: Interpreting results"
+  },
+  {
+    "objectID": "cross_sectional.html#strength-and-weakness",
+    "href": "cross_sectional.html#strength-and-weakness",
+    "title": "8  Cross-sectional study",
+    "section": "8.3 Strength and Weakness",
+    "text": "8.3 Strength and Weakness"
+  },
+  {
+    "objectID": "cross_sectional.html#main-steps-in-conducting-a-cross-sectional-study",
+    "href": "cross_sectional.html#main-steps-in-conducting-a-cross-sectional-study",
+    "title": "8  Cross-sectional study",
+    "section": "8.2 Main steps in conducting a Cross-sectional study",
+    "text": "8.2 Main steps in conducting a Cross-sectional study\nStep 1: Defining the study question\nStep 2: Defining the target population selecting the study population\nRefer to Measures of Occurrence section for definition of different concepts of population. Basically, the target population is the group to which we can generalise our study results, while the study population consists of the individuals we intend to include in our study. If the target population is small, we can study the entire population. However, in practice, the study population is usually a sample of the target population.\nIt is important to select the sample as representative of the target population, otherwise we will introduce selection bias in our study. The best way to ensure this is random sampling: Simple random sampling, Systematic sampling, Stratified sampling, Multi-stage sampling.\nMost of the time, not all individuals of our target population will participate in our study even though we have tried our best. We should collect as much as possible information about those who do not participate. If there is systematic different characteristics between those who participate and those who do not, there is selection bias in our study.\nStep 3: Collecting data\nStep 4: Analysing data\nStep 5: Interpreting results"
   }
 ]
