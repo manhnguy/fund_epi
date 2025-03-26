@@ -3,7 +3,7 @@ title: "Bias"
 ---
 ## What is Bias
 
-There are more than 20 types of bias in the Dictionary of Epidemiology book (@porta_dictionary_2014). They are defined inconsistently in different fields. Some authors regard confounding as a type of bias. 
+There are more than 20 types of bias in the Dictionary of Epidemiology book [@porta_dictionary_2014]. They are defined inconsistently in different fields. Some authors regard confounding as a type of bias. 
 
 In Epidemiology, bias refers to any systematic error in the design or conduct of an epidemiological study that results in an incorrect estimate of the association between exposure and outcome (risk of disease).
 

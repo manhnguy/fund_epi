@@ -1,3 +1,3 @@
 ---
-title: "Untitled"
+title: "Case-control study"
 ---
