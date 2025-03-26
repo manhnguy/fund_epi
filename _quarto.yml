@@ -37,9 +37,6 @@ format:
   html:
     theme: [cosmo, theme.scss]
 
-  pdf:
-    documentclass: scrreprt
-
 comments:
   giscus:
     repo: manhnguy/fund_epi

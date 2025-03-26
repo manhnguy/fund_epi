@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fundamental Epidemiological Study Designs",
     "section": "",
-    "text": "Lash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth\nJ. Rothman. 2021. Modern Epidemiology. Fourth edition / Timothy\nL. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman.\nPhiladelphia: Wolters Kluwer.\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford\nUniversity Press."
+    "text": "Preface\nI am on a journey to pursue my master’s degree. I started writing this notes as a way to summarize what I have learned from the course. It will be basic and may contain some errors or mistakes. If you have time to go through it, I would be grateful for your feedback. Most of the content here is taken from the Distant Learning Epidemiology Master’s Programme provided by London School of Hygene and Tropical Medicine (LSHTM), with some modifications taken from the book Modern Epidemiology, 4th edition (Lash et al. 2021) and the Introduction to Biostatistics course provided by Prof. Ronald Geskus and his team at Oxford University Clinical Research Unit, Ho Chi Minh.\nSpecial thanks to Dr. Thinh Ong for motivating me to work on this.\n\n\n\n\nLash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth J. Rothman. 2021. Modern Epidemiology. Fourth edition / Timothy L. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman. Philadelphia: Wolters Kluwer."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Epidemiology is a young science that has developed particularly rapidly over the last 50 years, as new techniques of analysis have been developed. Much progress has been made, particularly in understanding the causes of “non-communicable” diseases (for example, the links between H.pylori and gastric ulcer, and between EBV (Epstein-Barr virus) and Burkitts lymphoma).\nHowever new challenges continue to emerge. In recent decades, severe acute respiratory syndrome (SARS), drug resistant tuberculosis and methicillin-resistant staphylococcus aureus (MRSA) have all emerged as challenges to the public health. As an epidemiologist, you are unlikely to become bored!\nSource: EPM 101 LSHTM"
   },
   {
     "objectID": "epi.html#what-is-epidemiology",
@@ -28,18 +35,11 @@
     "text": "1.3 Basic Epidemilogical study types\n\n\n\n\n\nThis epidemiological studies family tree is simpler than the one introduced by Ronald.\n\n\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford University Press."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fundamental Epidemiological Study Designs",
-    "section": "",
-    "text": "Preface\nI am on a journey to pursue my master’s degree. I started writing this notes as a way to summarize what I have learned from the course. It will be basic and may contain some errors or mistakes. If you have time to go through it, I would be grateful for your feedback. Most of the content here is taken from the Distant Learning Epidemiology Master’s Programme provided by London School of Hygene and Tropical Medicine (LSHTM), with some modifications taken from the book Modern Epidemiology, 4th edition (Lash et al. 2021) and the Introduction to Biostatistics course provided by Prof. Ronald Geskus and his team at Oxford University Clinical Research Unit, Ho Chi Minh.\nSpecial thanks to Dr. Thinh Ong for motivating me to work on this.\n\n\n\n\nLash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth J. Rothman. 2021. Modern Epidemiology. Fourth edition / Timothy L. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman. Philadelphia: Wolters Kluwer."
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Epidemiology is a young science that has developed particularly rapidly over the last 50 years, as new techniques of analysis have been developed. Much progress has been made, particularly in understanding the causes of “non-communicable” diseases (for example, the links between H.pylori and gastric ulcer, and between EBV (Epstein-Barr virus) and Burkitts lymphoma).\nHowever new challenges continue to emerge. In recent decades, severe acute respiratory syndrome (SARS), drug resistant tuberculosis and methicillin-resistant staphylococcus aureus (MRSA) have all emerged as challenges to the public health. As an epidemiologist, you are unlikely to become bored!\nSource: EPM 101 LSHTM"
+    "objectID": "occurrence.html#population-and-case-in-epidemiology",
+    "href": "occurrence.html#population-and-case-in-epidemiology",
+    "title": "2  Measures of Occurrence",
+    "section": "2.1 Population and case in Epidemiology",
+    "text": "2.1 Population and case in Epidemiology\nIn Epidemiology, population is a group of people who share characteristics or meet criteria that define membership in the population (Lash et al. 2021).\nThree common terms:\n\nThe source population is the population from which persons will be sampled and included in a measurement of disease frequency\nThe study population (population at risk) is the subset, up to a complete census, of the source population whose experience is included in a measurement of disease frequency\nThe target population comprises the persons for whom information gleaned by the measurement of disease frequency will be relevant\n\nCase (or the outcome) definition should contain:\n\nThe method(s) used to identify a case. The procedures or instruments that have been used to identify a case.\nThe boundaries of a case. The cut-off point to be a case or non-case.\nThe unit of analysis(person, a household… )\n\nNote: How we define a case influences how we define the study population."
   },
   {
     "objectID": "occurrence.html#prevalence",
@@ -47,20 +47,6 @@
     "title": "2  Measures of Occurrence",
     "section": "2.2 Prevalence",
     "text": "2.2 Prevalence\nThe total number of individuals who have the condition (e.g., disease, exposure, attribute) at a particular time (or during a particular period) divided by the population at risk of having the condition at that time or midway through the period. (Porta 2014)\nPoint prevalence (often used) is the proportion of persons in a defined population that has the outcome under study at a specific point in time\n\\[\\text{Point prevalence} =  \\frac{\\text{Number of cases at time t}}{\\text{Study population at time t}}\\]\n\n\n\n\n\n\nImportant\n\n\n\nIn the denominator, the study population at time t means excluding individuals lost to follow up and death.\n\n\nExample:\nPeriod prevalence is the number of cases in a population over a defined period of time. Not often used."
-  },
-  {
-    "objectID": "occurrence.html#population-and-cases-in-epidemiology",
-    "href": "occurrence.html#population-and-cases-in-epidemiology",
-    "title": "2  Measures of Occurrence",
-    "section": "2.1 Population and cases in Epidemiology",
-    "text": "2.1 Population and cases in Epidemiology\nIn Epidemiology, population is a group of people who share characteristics or meet criteria that define membership in the population (Lash et al. 2021).\nThree common terms:\n\nThe source population is the population from which persons will be sampled and included in a measurement of disease frequency\nThe study population (population at risk) is the subset, up to a complete census, of the source population whose experience is included in a measurement of disease frequency\nThe target population comprises the persons for whom information gleaned by the measurement of disease frequency will be relevant\n\nCase (or the outcome) definition should contain:\n\nThe method(s) used to identify a case. The procedures or instruments that have been used to identify a case.\nThe boundaries of a case. The cut-off point to be a case or non-case.\nThe unit of analysis(person, a household… )\n\nNote: How we define a case influences how we define the study population."
-  },
-  {
-    "objectID": "occurrence.html#population-and-case-in-epidemiology",
-    "href": "occurrence.html#population-and-case-in-epidemiology",
-    "title": "2  Measures of Occurrence",
-    "section": "2.1 Population and case in Epidemiology",
-    "text": "2.1 Population and case in Epidemiology\nIn Epidemiology, population is a group of people who share characteristics or meet criteria that define membership in the population (Lash et al. 2021).\nThree common terms:\n\nThe source population is the population from which persons will be sampled and included in a measurement of disease frequency\nThe study population (population at risk) is the subset, up to a complete census, of the source population whose experience is included in a measurement of disease frequency\nThe target population comprises the persons for whom information gleaned by the measurement of disease frequency will be relevant\n\nCase (or the outcome) definition should contain:\n\nThe method(s) used to identify a case. The procedures or instruments that have been used to identify a case.\nThe boundaries of a case. The cut-off point to be a case or non-case.\nThe unit of analysis(person, a household… )\n\nNote: How we define a case influences how we define the study population."
   },
   {
     "objectID": "occurrence.html#incidence",
@@ -84,18 +70,18 @@
     "text": "2.5 Comparison\nThe prevalence (P) quantifies all the people with an outcome at a point in time. It is influenced by the occurrence of new cases (incidence, I) and the duration of each case (D): P= I x D.\nAs so many factors influence prevalence, it is difficult to interpret comparative studies of the prevalence of the same condition in different settings.\nIt can also be difficult to interpret the reasons for a change in the prevalence of a condition in the same location.\nHowever, prevalence studies provide useful information about the state of health of a community at a particular point in time, and so are useful for evaluating health-care needs and planning health service provision.\nThis is particularly important for chronic conditions that require health care resources throughout their duration.\nThe prevalence can also be used to evaluate the impact of preventative measures aimed at reducing the burden of a disease or condition in a community.\nHowever, because of the number of factors that influence prevalence, any comparative results need to be interpreted with caution.\n\n\n\n\n\n\nImportant\n\n\n\nPrevalence is useful for chronic diseases that require health resource. It can be used for evaluating health-care needs and planning.\nIncidence risk provides good evidence for studying causality when the outcome of interest is uncommon or acute diseases and the population is static.\nIncidence rate is useful when the population is dynamic, the outcome of interest is common or the population at high risk(the number of new cases will be relatively high) or can occur many times.\n\n\n\n\n\n\nLash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth J. Rothman. 2021. Modern Epidemiology. Fourth edition / Timothy L. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman. Philadelphia: Wolters Kluwer.\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford University Press."
   },
   {
-    "objectID": "measures_effect.html",
-    "href": "measures_effect.html",
-    "title": "3  Measures of Effect/Association",
-    "section": "",
-    "text": "As mentioned in Fundamental Epidemiology section"
-  },
-  {
     "objectID": "measures_effect.html#ratio-measures",
     "href": "measures_effect.html#ratio-measures",
     "title": "3  Measures of Effect/Association",
     "section": "3.1 Ratio measures",
     "text": "3.1 Ratio measures\nRatio: The value obtained by dividing one quantity by another (Porta 2014). We can use the ratio to compare any type of measure occurrence: Prevalence, Incidence or Odds between 2 populations.\nPrevalence ratio\nThe prevalence ratio is sometimes used in health-service planning to compare the burden of a condition in different groups. Prevalence is less useful than incidence in trying to establish the effect of an exposure, because prevalence depends on both incidence and duration\n\\[\\text{Prevalence ratio} = \\frac{\\text{prevalence in population or group A}}{\\text{prevalence in population or group B}}\\]\nRisk ratio\n\\[\\text{RR} = \\frac{\\text{incidence risk in exposed population}}{\\text{incidence risk in unexposed population}}\\]\nRate ratio\n\\[\\text{RR} = \\frac{\\text{incidence rate in exposed population}}{\\text{incidence rate in unexposed population}}\\]\nOdds ratio\n\\[\\text{OR} = \\frac{\\text{odds of outcome in exposed individuals}}{\\text{odds of outcome in unexposed individuals}}\\]\nOdds ratio in Case-Control Study\n\\[\\text{OR} = \\frac{\\text{odds of exposure in cases (people with the outcome)}}{\\text{odds of exposure in controls (people without the outcome)}}\\]\n\n\n\n\n\n\nImportant\n\n\n\nFor rare outcomes in static populations (case-control studies), Odds ratio is almost similar to Risk ratio and rate ratio. Some people just call them all Relative risk."
+  },
+  {
+    "objectID": "measures_effect.html#interpretation-of-ratio-measures-association",
+    "href": "measures_effect.html#interpretation-of-ratio-measures-association",
+    "title": "3  Measures of Effect/Association",
+    "section": "3.2 Interpretation of Ratio Measures (Association)",
+    "text": "3.2 Interpretation of Ratio Measures (Association)\nTo estimate an association, we need to answer 2 questions:\nIs there an association?\n\nRelative Risk = 1 : No association\nRelative Risk > 1 : The risk/rate/odds of the outcome in the exposed group is greater than that in the unexposed group\nRelative Risk < 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a protective factor for the outcome.\n\nExample\nAND\nHow does this association mean?\nTo conclude the association between exposure and outcome, we need to consider other aspects: random error, bias, confounding. Bias and confounding will be discussed in more details in the following sections. Random error is related to estimates obtained by chance. We use Confidence Intervals to assess the level of certainty."
   },
   {
     "objectID": "measures_effect.html#difference-measures",
@@ -110,13 +96,6 @@
     "title": "3  Measures of Effect/Association",
     "section": "3.4 Comparison between Ratio and Difference measures",
     "text": "3.4 Comparison between Ratio and Difference measures\nRatio measures and difference measures are influenced by different factors and provide different types of information.\nRatio measures estimate the strength of association between an exposure and an outcome. We use a ratio measure in analytical studies as one piece of evidence in judging whether an exposure causes an outcome.\nDifference measures quantify the difference in incidence between an exposed and an unexposed population. We use difference measures when a causal association between an exposure and an outcome has already been established, to estimate the risk that is attributable to exposure in the exposed group.\nThe measures covered in this session are appropriate where the exposure measure is a categorical variable. They cannot, therefore, be used to analyse continuous exposure variables\n\n\n\n\n\n\nImportant\n\n\n\nTerminology\nThere are three commonly used measures of disease frequency in epidemiology: we have called these the odds, the risk, and the rate. The numerator in all of three of these is the number of cases occurring within a defined period of time. The difference is in the denominator: the odds uses the number of non-cases within the same time period, the risk uses the number of individuals at the beginning of the follow-up period, and the rate uses the person-time at risk during the follow-up period. The ratio of odds, risks or rates between two groups gives the respective measures of effect: the odds ratio, the risk ratio and the rate ratio.\nIn the literature, however, it is common to see these terms used interchangeably, which can cause confusion. In particular, the term risk is often used generically to refer to any of the above measures of disease frequency. To complicate things further, some of these measures have other names: the risk is also sometimes referred to as the cumulative risk, while the rate is sometimes known as the incidence density. In infectious disease epidemiology, the force of infection is used to describe the rate at which susceptible individuals become infected.\nMake it clear what you are measuring in your study\n\n\n\n\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford University Press."
-  },
-  {
-    "objectID": "measures_effect.html#interpretation-of-ratio-measures-association",
-    "href": "measures_effect.html#interpretation-of-ratio-measures-association",
-    "title": "3  Measures of Effect/Association",
-    "section": "3.2 Interpretation of Ratio Measures (Association)",
-    "text": "3.2 Interpretation of Ratio Measures (Association)\nTo estimate an association, we need to answer 2 questions:\nIs there an association?\n\nRelative Risk = 1 : No association\nRelative Risk > 1 : The risk/rate/odds of the outcome in the exposed group is greater than that in the unexposed group\nRelative Risk < 1 : The risk/rate/odds of the outcome in the exposed group is less than that in the unexposed group. The exposure is a protective factor for the outcome.\n\nExample\nAND\nHow does this association mean?\nTo conclude the association between exposure and outcome, we need to consider other aspects: random error, bias, confounding. Bias and confounding will be discussed in more details in the following sections. Random error is related to estimates obtained by chance. We use Confidence Intervals to assess the level of certainty."
   },
   {
     "objectID": "bias.html#what-is-bias",
@@ -140,11 +119,11 @@
     "text": "8.1 Design and why do Cross-sectional study?\nDesign\nIn a cross-sectional study, we measure the frequency of a particular exposure(s) and / or outcome(s) in a defined population at a particular point in time. Sometimes it is called prevalence study.\nIn a descriptive cross-sectional study, we simply describe the frequency of the exposure(s) or outcome(s) in a defined population.\nIn an analytic cross-sectional study, we simultaneously collect information on both the outcome of interest potential risk factor(s) in a defined population. We then compare the prevalence of the outcome in the people exposed to each risk factor with the prevalence in those not exposed.\nWhy do Cross-sectional study?\nDescriptive study\n\nas the study measures the prevalence, it is useful for health planners who need to know the burden of specific conditions in order to plan preventive and curative services.\nsome cross-sectional studies also collect data on the utilisation of preventive and curative services. it’s useful for predicting health care needs and establishing health-care priorities.\nSome studies collect information about the knowledge, attitudes and practices of a population in relation to a particular health-related outcome. it’s useful for the development of population-level health education campaigns.\n\n\n\n\n\n\n\nImportant\n\n\n\nCross-sectional studies are not suitable for describing the frequency of rare exposures or outcomes.\n\n\nAnalytical study\n\nas the study measures the prevalence at a particular time point, it does not provide strong evidence about the causality. It can be difficult to establish the time sequence of events: the exposure may be a consequence rather than a cause of the outcome (reverse causality)\nWe cannot use cross-sectional study to test a hypothesis. Instead, we use it to generate hypothesis."
   },
   {
-    "objectID": "cross_sectional.html#main-steps-in-conducting-cross-sectional-study",
-    "href": "cross_sectional.html#main-steps-in-conducting-cross-sectional-study",
+    "objectID": "cross_sectional.html#main-steps-in-conducting-a-cross-sectional-study",
+    "href": "cross_sectional.html#main-steps-in-conducting-a-cross-sectional-study",
     "title": "8  Cross-sectional study",
-    "section": "8.2 Main steps in conducting Cross-sectional study",
-    "text": "8.2 Main steps in conducting Cross-sectional study\nStep 1: Defining the study question\nStep 2: Defining the target population\nStep 3: Selecting the study population\nStep 4: Collecting data\nStep 5: Analysing data\nStep 6: Interpreting results"
+    "section": "8.2 Main steps in conducting a Cross-sectional study",
+    "text": "8.2 Main steps in conducting a Cross-sectional study\nStep 1: Defining the study question\nStep 2: Defining the target population selecting the study population\nRefer to Measures of Occurrence section for definition of different concepts of population. Basically, the target population is the group to which we can generalise our study results, while the study population consists of the individuals we intend to include in our study. If the target population is small, we can study the entire population. However, in practice, the study population is usually a sample of the target population.\nIt is important to select the sample as representative of the target population, otherwise we will introduce selection bias in our study. The best way to ensure this is random sampling: Simple random sampling, Systematic sampling, Stratified sampling, Multi-stage sampling.\nMost of the time, not all individuals of our target population will participate in our study even though we have tried our best. We should collect as much as possible information about those who do not participate. If there is systematic different characteristics between those who participate and those who do not, there is selection bias in our study.\nStep 3: Collecting data\nStep 4: Analysing data\nStep 5: Interpreting results"
   },
   {
     "objectID": "cross_sectional.html#strength-and-weakness",
@@ -154,17 +133,17 @@
     "text": "8.3 Strength and Weakness"
   },
   {
-    "objectID": "cross_sectional.html#main-steps-in-conducting-a-cross-sectional-study",
-    "href": "cross_sectional.html#main-steps-in-conducting-a-cross-sectional-study",
-    "title": "8  Cross-sectional study",
-    "section": "8.2 Main steps in conducting a Cross-sectional study",
-    "text": "8.2 Main steps in conducting a Cross-sectional study\nStep 1: Defining the study question\nStep 2: Defining the target population selecting the study population\nRefer to Measures of Occurrence section for definition of different concepts of population. Basically, the target population is the group to which we can generalise our study results, while the study population consists of the individuals we intend to include in our study. If the target population is small, we can study the entire population. However, in practice, the study population is usually a sample of the target population.\nIt is important to select the sample as representative of the target population, otherwise we will introduce selection bias in our study. The best way to ensure this is random sampling: Simple random sampling, Systematic sampling, Stratified sampling, Multi-stage sampling.\nMost of the time, not all individuals of our target population will participate in our study even though we have tried our best. We should collect as much as possible information about those who do not participate. If there is systematic different characteristics between those who participate and those who do not, there is selection bias in our study.\nStep 3: Collecting data\nStep 4: Analysing data\nStep 5: Interpreting results"
-  },
-  {
     "objectID": "summary.html",
     "href": "summary.html",
     "title": "Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Lash, Timothy L., Tyler J. VanderWeele, Sebastien Haneuse, and Kenneth\nJ. Rothman. 2021. Modern Epidemiology. Fourth edition / Timothy\nL. Lash, Tyler J. VanderWeele, Sebastien Haneuse, Kenneth J. Rothman.\nPhiladelphia: Wolters Kluwer.\n\n\nPorta, Miquel. 2014. A Dictionary of Epidemiology. Oxford\nUniversity Press."
   }
 ]
