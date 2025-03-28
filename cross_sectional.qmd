@@ -44,12 +44,44 @@ Refer to [Measures of Occurrence](occurrence.qmd) section for definition of diff
 
 It is important to select the sample as representative of the target population, otherwise we will introduce selection bias in our study. The best way to ensure this is random sampling: Simple random sampling, Systematic sampling, Stratified sampling, Multi-stage sampling.
 
-Most of the time, not all individuals of our target population will participate in our study even though we have tried our best. We should collect as much as possible information about those who do not participate. If there is systematic different characteristics between those who participate and those who do not, there is selection bias in our study. 
+Most of the time, not all individuals of our target population will participate in our study even though we have tried our best. We should collect as much as possible information about those who do not participate. If there is systematic different characteristics between those who participate and those who do not, there is selection bias in our study. And, We should report as much information as possible about the non-participant. 
 
 **Step 3: Collecting data**
 
+Have a clear case and exposure definitions [Measure of Occurrence](occurrence.qmd) before collecting any data. We then collect data on both outcomes and exposures simultaneously. 
+
+Methods used for collecting data could be: personal interviews, questionnaires, medical records, physical examinations, diagnostic tests, or any combination of these. The data should be collected in standardised way.
+
 **Step 4: Analysing data**
 
+In **Descriptive study**: We quantify the prevalence and often report this in different gender and age groups.  
+
+In **Analytical study**: We quantify the association between exposure and outcome of interest using Prevalence ratio.
+
 **Step 5: Interpreting results**
+
+![](images/association.jpg)
+
+**Bias in cross-sectional studies**
+
+*Selection bias*  may occur as we can not have 100 individuals participate in our study
+
+*Information bias*
+
+- Recall bias: if the individuals with the outcome are more of less likely to recall having been exposed to the risk factor risk factors. We can minimise this bias by trying to use objective data, not telling participants about the association under the study. 
+
+- Observer bias: If the researchers is more or less likely to decide that the outcome is present in individuals who have the exposure under study. We can minimise this bias by having a strict definition of outcome, using standardised methods of data collection or ensure the researcher who measure the outcome is blinded to the exposure status of the participants. 
+
+**Confounding in cross-sectional studies**
+ 
+We must be aware of all potential confounders and collect data on these confounders at the start of the study. In analysing step, check for the evidence of confounding following the 3 steps. 
+
+:::Callout-important
+
+Cross-sectional study measure the prevalence which is influenced by many factors: severity of cases, access to curative treatment, survival. It's difficult to intepret the reasons for the differing prevalences in different populations. 
+
+Data on exposure and outcome are collected at the same time. It can be difficult to tell whether outcome really occur after or before exposure. if it occurs before the exposure we call *reverse causality*. We can only be sure that the expore occurred before the outcome if it is fixed characteristic of the individual(e.g. gender, age, blood group....).
+
+:::
 
 ## Strength and Weakness
