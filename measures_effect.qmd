@@ -1,8 +1,5 @@
 ---
 title: "Measures of Effect/Association"
-format:
-  html:
-    mermaid: {}
 ---
 As mentioned in [Fundamental Epidemiology](epi.qmd) section, comparison is fundamental in epidemiological studies. When interpreting the results from both observational and analytical studies, we typically use some sort of comparison. 
 
