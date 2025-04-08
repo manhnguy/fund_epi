@@ -2,4 +2,4 @@
 title: "Study design"
 ---
 
-![](images/study_types.gif)
+![](images/study_types.gif){fig-align="center"}

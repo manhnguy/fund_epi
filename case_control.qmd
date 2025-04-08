@@ -35,7 +35,7 @@ In a case-control study, we start by identifying individuals with the outcome of
 
 The cases must be a clear defined group with 3 properties: 
 
-**a. case definition** refer to [Measure of Occurrence](occurrence.qmd) section.
+**a. Case definition** refer to [Measure of Occurrence](occurrence.qmd) section.
 
 **b. Source**
 
@@ -71,7 +71,7 @@ Data sources could be:
 
 Note: all of these data courses have some limitations, 1 source is unlikely to provide a complete accurate information.
 
-2, If cases are derived from a health care facility, many studies use controls from the same health facility. Because these controls are easy to recruit, more likely to participate with less losses of follow up. However, these controls may not be representative of the population which produced the cases and selection bias maybe introduced.
+2, If cases are derived from a health care facility, many studies use controls from the same health facility. Because these controls are easy to recruit, more likely to participate with less losses of follow up, less risk of recall bias as they have an illness. However, these controls may not be representative of the population which produced the cases and selection bias maybe introduced.
 
 **should there be more than one group of controls?**
 
@@ -177,6 +177,35 @@ Under certain assumptions, most importantly that the duration of the disease is 
 **Step 7: Interpreting results**
 
 ![](images/association.jpg)
+
+**Bias**
+
+The potential sources of bias in case-control studies are:
+
+- selection bias in selecting cases and controls
+
+- information bias in obtaining data on exposure
+
+Controls are derived from hospitals have some advantages as above. However, they may not be representative of the population that produced the cases.
+
+**Confounding**
+
+Refer to [Confounders and Effect Modification](con_effect_modification.qmd) section for more information on confounding. 
+
+Methods for controlling confounding include:
+
+- at the design stage using restriction and matching 
+
+- in the analysis using stratification and regression modelling 
+
+
+**Random error**
+
+**Measurement error** may result in misclassification of exposure or outcome and lead to inaccurate estimate. 
+
+**Reverse causality**: As the exposure is measured after the outcome has occurred, it is possible that the exposure have been influenced by the outcome. It is important to define the exposure period of interest in case-control studies. For diseases with long latent periods (for example, lung cancer), this may be many years prior to the onset of disease. Where the latent period is short (for example, diarrhoeal disease), the relevant exposure period may be only days before the outcome occurs.
+
+Exposure status may also be influenced by the early stages of a chronic disease, before the outcome as defined in the case definition has occurred.
 
 ## Strength and Weakness
 
