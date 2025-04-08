@@ -4,7 +4,7 @@ title: "Cross-sectional study"
 
 ## Design and why do Cross-sectional study?
 
-**Design**
+**a Design**
 
 In a cross-sectional study, we measure the frequency of a particular exposure(s) and / or outcome(s) in a defined population at a particular point in time. Sometimes it is called prevalence study.
 
@@ -12,7 +12,7 @@ In a descriptive cross-sectional study, we simply describe the frequency of the 
 
 In an analytic cross-sectional study, we simultaneously collect information on both the outcome of interest potential risk factor(s) in a defined population. We then compare the prevalence of the outcome in the people exposed to each risk factor with the prevalence in those not exposed.
 
-**Why do Cross-sectional study?**
+**b Why do Cross-sectional study?**
 
 **Descriptive study**
 
@@ -38,7 +38,7 @@ Cross-sectional studies are not suitable for describing the frequency of rare ex
 
 **Step 1: Defining the study question**
 
-**Step 2: Defining the target population selecting the study population**
+**Step 2: Defining the target population and selecting the study population**
 
 Refer to [Measures of Occurrence](occurrence.qmd) section for definition of different concepts of population. Basically, the target population is the group to which we can generalise our study results, while the study population consists of the individuals we intend to include in our study. If the target population is small, we can study the entire population. However, in practice, the study population is usually a sample of the target population.
 
@@ -64,7 +64,7 @@ In **Analytical study**: We quantify the association between exposure and outcom
 
 **Bias in cross-sectional studies**
 
-*Selection bias*  may occur as we can not have 100 individuals participate in our study
+*Selection bias*  may occur as we cannot have 100% individuals participate in our study
 
 *Information bias*
 
@@ -74,14 +74,28 @@ In **Analytical study**: We quantify the association between exposure and outcom
 
 **Confounding in cross-sectional studies**
  
-We must be aware of all potential confounders and collect data on these confounders at the start of the study. In analysing step, check for the evidence of confounding following the 3 steps. 
+We must be aware of all potential confounders and collect data on these confounders at the start of the study. In analysing step, we should check for the evidence of confounding using the 3 necessary criteria and assess how the confounders distort the association.   
 
 :::Callout-important
 
 Cross-sectional study measure the prevalence which is influenced by many factors: severity of cases, access to curative treatment, survival. It's difficult to intepret the reasons for the differing prevalences in different populations. 
 
-Data on exposure and outcome are collected at the same time. It can be difficult to tell whether outcome really occur after or before exposure. if it occurs before the exposure we call *reverse causality*. We can only be sure that the expore occurred before the outcome if it is fixed characteristic of the individual(e.g. gender, age, blood group....).
+Data on exposure and outcome are collected at the same time. It can be difficult to tell whether outcome really occur after or before exposure. if it occurs before the exposure we call *reverse causality*. We can only be sure that the exposure occurred before the outcome if it is fixed characteristic of the individual(e.g. gender, age, blood group....).
 
 :::
 
 ## Strength and Weakness
+
+**Strengths**
+
+- Cross-sectional studies are relatively easy and economical to conduct
+
+- Cross-sectional studies provide important information on the distribution and burden of exposures and outcomes. This is extremely valuable for health-service planning.
+
+- Cross-sectional studies can be used as the first step in the study of a possible exposure-outcome relationship.
+
+**Weaknesses**
+
+- Cross-sectional studies measure prevalence rather than incident cases. Because of this, they are of limited value for investigating aetiological relationships. Any association identified in a cross- sectional study is a measure of the effect of developing the outcome and staying in the population with the outcome.
+
+- It can be difficult to establish the time-sequence of events in a cross-sectional study. The exposure may have occurred as a result of the outcome (reverse causality).

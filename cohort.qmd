@@ -2,3 +2,167 @@
 title: "Cohort study"
 ---
 
+## Design and why do Cohort study?
+
+**Design**
+
+The starting point for cohort study is the exposure to the risk factor.
+
+**Descriptive study**: We select a group of participants who have experienced an exposure of interest, and follow them over a period of time to determine the incidence of one or more outcomes. Sometimes the participants of a descriptive cohort study are people who have the early stages of a disease, and are followed to observe the course of the disease over time (natural history of disease studies).
+
+**Analytic study**: We test the association between an exposure and an outcome. Study participants are classified as exposed or unexposed to the risk factor of interest and then followed over a period of time to see whether they develop one or more outcomes. We then compare the frequency of the outcome of interest among the group that was exposed to the risk factor with the group that was unexposed
+
+**Why do Cohort study?**
+
+-   Cohort studies are particularly useful for rare exposures and in situations where we are interested in more than one outcome.
+
+-   Because exposure status is defined at the start of the study, before the outcome is assessed, the temporal sequence of events can be investigated.
+
+::: callout-important
+**Difference between Cohort and Case-control study**
+
+**Cohort study**: We have exposure data on all those in the study population who develop the outcome, and all those who do not.
+
+**Case-control study**: we collect exposure data on all cases and controls. However, the controls are only a sub-set of the study population of "non-cases" rather than all non-cases in the study population.
+:::
+
+## Main steps in conducting a Cohort study
+
+**Step 1: Defining the study question**
+
+**Step 2: Defining the target population and selecting the study population**
+
+The study population should be free of outcome at the start of the the study
+
+**a Common exposure**
+We can select a population of people and classify each individual, at the start of the study, as exposed or unexposed. We then follow up the exposed and unexposed groups to determine the frequency of the outcome in each exposure group.
+
+This is called using an internal comparison group because we compare the exposed to the unexposed within the same population.
+
+**b Rare exposure**
+A sample of the general population is unlikely to include enough people who have been exposed. In this case we need to select a group of people who are known to have been exposed, and then choose a suitable comparison group.
+
+- internal comparison group: we may able to use unexposed group in the same population. The exposed and unexposed groups will likely be comparable. Work-force cohorts are a popular cohort design. However, these cohorts are generally not representative of the general population. All workforces differ from the general population because they are healthy enough to be in work, and some work cohorts (such as doctors or nurses) are likely to be better educated and more health-conscious than the general population. In an analytic cohort study, it is not essential that the study population is representative of the general population. We refer to the extent to which our results can be generalised to other populations as external validity (or generalisability).
+
+- external comparison group: If all individuals in the study population have some degree of the exposure, we may need to use unexposed group from different population. We need to be more careful that our exposed and unexposed groups are comparable, except with respect to the exposure of interest. If the exposed and unexposed groups are not comparable this would threaten the internal validity of our study. 
+
+Sometimes we may decide to use more than one unexposed comparison group and compare the exposed group with each unexposed group.
+
+**Step 3: Measuring exposure**
+
+Accurate measurement of exposure and classification of exposure status is important. Several data source can be used to measure the exposure: 
+
+- interviews with study participants
+
+- medical records
+
+- employment records
+
+- biological specimens
+
+Exposure is often a continuous variable, we can stratify a continuous variable into categorical variable. However, it is better to collect the exact values and stratify in the analysis step.
+
+If we use external comparison group, we need to be sure that the unexposed group is genuinely exposed to the exposure of interest.
+
+The exposure can change during the follow up and we need to use special analytical techniques to take account of this changes.
+
+We also need to measure potential confounding factors at the start of the study.
+
+Cohort studies can be prospective (also called concurrent) or historical (also called retrospective). This refers to the time at which exposure data were measured.
+
+**Historical cohort study**
+
+Advantage: much faster to perform, useful for diseases with a long period between exposure and outcome
+
+Disadvantage: data on exposure (and potential confounders) may be less accurate. Most of the time, data have been collected for different purposes.
+
+
+**Prospective cohort study**
+
+Advantage: data can be collected with more accurate and complete focus on the objectives of the study. 
+
+Disadvantage: It can take long time to complete the study and if losses to follow up is large and there is difference between loss to follow up witht the group that complete follow up, selection bias may be introduced.
+
+::: callout-important
+
+Although historical cohort studies are often referred to as retrospective cohort studies, we prefer to avoid this term as we believe it can be confusing. Conceptually, all cohort studies are prospective because they look forward in time from exposure to disease. This is in contrast with case control studies which are sometimes referred to as retrospective studies because they look back in time from disease to exposure. The key point to remember is that regardless of whether we are using historical data or real time data, in cohort studies the exposure status is always recorded before the outcome.
+
+:::
+**Step 4: Follow-up of participants**
+
+::: callout-important
+Incomplete follow-up is the main potential weakness of cohort studies.
+:::
+
+Minimise losses to follow up by regular interviews, face-to-face or by telephone, or postal questionnaires, and possibly a back-up system for tracing participants who do not respond.
+
+We should consider latency time when design a cohort study. If the latency time is too long (many years), we may consider historical cohort study.
+
+**Step 5: Ascertaining outcome**
+
+
+**Step 6: Analysing data**
+
+Risks are useful when the follow-up time is identical (or nearly identical) for all members of the cohort. However, if there is wide variation between study participants in the duration of follow-up, we must take this into account. In this situation, it would be better to calculate a rate.
+
+For analytical cohort study, we use risk/rate ratio/difference to compare the 2 groups. 
+
+If there are more than 2 levels of the exposure, we need to choose a level as a baseline that we use to compare with other levels. This baseline level is usually one of the least or no exposure. **If there are few events in this group (very small number), we need to choose another level as baseline as the CI will be wide.**
+
+Note about the changes in exposure. 
+
+**Step 7: Interpreting results**
+
+![](images/association.jpg)
+
+**Bias** 
+
+1 Selection bias:
+
+- if the unexposed group is not correctly selected
+
+- if there is differential loss to follow-up between exposure groups
+
+2 Information bias: 
+
+Observer bias: 
+
+- If the researcher knows about the exposure status, s/he might mis-stratify the outcome. 
+
+- If the participants know about the study question, s/he might report inaccurate outcome.
+
+These problems can be minimised by having a strict case definition for the outcome of interest, by using objective measures. We can also try to blind person who carry out diagnosis the outcome to the exposure status of the participant and blind the participants about the hypothesis under the study (concern about ethic)
+
+**Confounding**
+
+As all observational studies, we should collect all information on potential confounders together with the exposure of interest at the start of the study. 
+
+**Random errors**
+
+## Strength and Weakness
+
+**Strength**
+
+- exposure is measured at the start of the study, before the outcome occurs, and so measurement of exposure is not biased by the presence or absence of the outcome
+
+- the time sequence of events should be clear in a cohort study, minimising the possibility of reverse causality
+
+- cohort studies can provide data on the time course of the development of the outcome(s), including late effects.
+
+- more than one outcome can be examined at once
+
+- rare exposures can be investigated using appropriately selected populations.
+
+**Weekness**
+
+- prospective cohorts are slow and potentially expensive if there is a long period between exposure and outcome (long latency)
+
+- historical cohort studies depend upon pre-existing records of exposure being available, and being reliable
+
+- they are inefficient for rare diseases (unless the attributable fraction is very high)
+
+- exposure status may change during study (in which case it may need to be determined again at intervals throughout the study)
+
+- differential loss to follow-up may introduce bias: **this is a particular problem when follow-up is of long duration**
+
+- in long term cohort studies, it may be hard to ensure that diagnostic criteria remain consistent throughout the study, particularly if outcomes are ascertained from routine data sources.
