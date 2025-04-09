@@ -2,10 +2,34 @@
 title: "Intervention study"
 ---
 
-## Design and why do Cohort study?
+## Design and why do Intervention study?
+
+Intervention studies are similar to cohort study. Instead of observing the presence and absence of an exposure, we allocate the intervention to one group of the study population. The other unexposed group acts as control group. Both groups are then followed up over a period of time.
+
+A gold standard intervention study is randomised controlled trial(RCT). Participants and allocated to receive the intervention or not at random. The RCT has some advantages:
+
+- when done correctly on a large enough group, the comparison groups will usually be similar with respect to potential confounders, both known and unknown. 
+
+- it prevents bias in the allocation of participants to the intervention or control groups.
+
+If the randomisation is done correctly, the only difference between the intervention and control groups is whether or not they received the intervention. Therefore any difference in outcome should be attributable to the intervention.
+
+## Main steps in conducting a Intervention study
+
+**Step 1: Defining the study question**
 
 
-## Main steps in conducting a Cohort study
 
+**Step 1: Defining the target population**
+
+**Step 1: Selecting the study population**
+
+**Step 1: Allocating the intervention**
+
+**Step 1: Follow-up of participants**
+
+**Step 1: Measuring outcome**
+
+**Step 1: Analysing data Interpreting results**
 
 ## Strength and Weaknes
