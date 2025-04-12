@@ -27,6 +27,7 @@ book:
         - cohort.qmd 
         - case_control.qmd
         - intervention.qmd
+        - eco.qmd
         
     - summary.qmd
     - references.qmd

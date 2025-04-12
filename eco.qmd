@@ -1,0 +1,180 @@
+---
+title: "Ecological Studies"
+---
+
+## Design and why do ecological studies?
+
+**Design**
+
+In an ecological study, the comparison is done at group level while the other studies compare 2 or more groups at individual level. OR we know exact each individual has the outcome. 
+
+a group is a collection of two or more persons, can be anything from a household, school or village to a nation or a group of nations. we then use an average exposure for a population and a population level outcome(risk or rate). We don't have information on the outcome and exposure for each individual in the group.
+
+- we look to see whether the outcome is more frequent in groups where the exposure is more frequent.
+example: compare the skin cancer incidence risk between difference area with different average number sunny hours.
+
+**a) multi-group (geographical) ecological study**
+
+we compare the rates of an outcome among many geographical groups during the same time period.
+
+**b) time-trend ecological study**
+
+we compare the rates of an outcome over time in one geographically defined population.
+
+**Why do ecological studies?**
+
+***a) To investigate differences between groups***
+
+The risk factors responsible for differences in outcome between groups may be different from the risk factors responsible for the differences in outcomes between individuals within a group. This is because exposure to some risk factors does not vary much within groups, but does vary substantially between groups.
+
+e.g.: iodine intake and goitre in some mountain region. 
+
+***b) To investigate group-level effects***
+
+some exposures act at group level: policy, health care system...
+
+some exposures act at individual level but have additional effects when exposed individuals are grouped together.
+example: being poor has an effect on health, living in a poor neighborhood may have additional effect o health. 
+
+**contextual effect**: 
+
+- an exposure has a contextual effect on an outcome if group exposure has an additional effect on the outcome over that of individual exposure.
+
+Example: Being poor has an effect on health at the individual level. The effect of living in a poor neighbourhood (group-level poverty) may have additional effects on health. If we only study poverty at the individual level, we may underestimate the overall effect of poverty on health.
+
+::: callout-important
+
+- some outcomes also have contextual effects: incidence risk affected by the prevalence and the immune proportion at particular time. 
+
+:::
+
+***c) Because groups are convenient to study***
+
+Some environmental exposures can be measured at the group level, but are difficult or impossible to measure at the individual level: exposure to UV-> average sunshine hours
+
+Some individual-level exposures are difficult to measure accurately because of substantial within-person variability: data on alcohol sale is more accurate than individual alcohol consumption
+
+routine data are often available at group level, relatively cheap and easy to use
+
+::: callout-important
+
+Use ecological studies to generating hypothesis to test in future studies but cannot be used to answer questions from individual studies
+
+:::
+
+## Main steps
+
+After we have decided that an ecological design is appropriate for our particular study question:
+
+**Step 1: Select which groups to compare**
+
+- We should choose groups that cover a wide range of levels of exposure and frequencies of outcome.
+
+- We should choose groups that are as similar as possible in all respects other than the exposure and outcome under study.
+
+- If the exposure under study is highly correlated with a potential confounder, we should try to include some groups where the exposure and the confounder are not found together.example: state with helmet laws would have lows to restrict alcohol -> we should try to include states with helmet laws but not alcohol restricts
+
+- If we are using routine data, or data from secondary sources, we must be sure that the exposure and outcome data for the groups is comparable. Differences in recording of exposures and/or outcomes will lead to differential misclassification between groups.
+
+- Do **NOT** restrict the study to only **groups where you already know** that the association that you are investigating exists. Selection bias.
+
+**Step 2: Measure group level exposure and outcome**
+
+Ecological studies often use routine data or data from secondary sources
+
+Ecological studies may also use proxy measures. A proxy measure does not directly measure the exposure or outcome of interest, but measures a variable that is thought to be closely associated with it. alcohol sale is proxy measure of alcohol consumption 
+
+***Group-level outcome:***
+
+We measure the outcome using summary measure: incidence, mortality, prevalence. We should always standardise these outcome measure by age and sex. 
+
+Example: 
+incidence risk of childhood diarrhoea,
+coronary heart disease mortality rates
+
+***Group-level exposure:***
+
+- Summary measure: proportion of individual exposed in the group or on the average, mean, median level of exposure.
+
+- Environmental measure: a characteristic of the environment in which group members live or work and affect all individual in the group equally: Altitude and latitude. Some may vary among members but variation cannot be captured: UV radiation
+
+- integral measure. An integral measure is a characteristic of the group itself. The presence or absence of a law which is different from measure of actual helmet use.
+
+Example:
+proportion of houses with no latrine
+per capita cigarette consumption
+median family income
+
+**Step 3: Analysing**
+
+First: plot a scatterplot
+
+Second: Quantify the association: 
+
+correlation coefficient
+regression
+
+**Step 4: Interpreting**
+
+![](images/association.jpg)
+
+***Chance***
+
+Ecological studies tend to have a much smaller sample size than individual-level studies (because the unit of analysis is the group, not the individual).
+
+***Confounding***
+
+It can be extremely difficult to detect and control for confounding in an ecological study:
+
+- Ecological studies often rely on routine data, secondary data and even proxy measures
+
+- Groups usually differ in many factors. This means that it can be very difficult to judge which factor is responsible for differences in outcomes between groups. 
+
+***Bias***
+
+- Selection bias: how we select the groups **Do Not select the groups you already know the association
+
+- Information bias: systematic differences between groups in the accuracy of the information collected
+   
+   - Ecological studies often use data that less accurate than more direct measures. This lead to non-differential misclassification. In individual-level study, this leads to bias towards the null. In ecological studies, non-differential misclassification of a dichotomous exposure withing groups usually leads to bias away from the null.  
+   
+   - Routine data from different groups may vary systematically because of differences in detection and classification.
+
+***Reverse causality***
+
+Data on exposure and outcome are often collected simultaneously. For static exposure (altitude, mountain), this is not important. But for some exposures, it can be difficult to judge if the exposure causes the outcome.
+
+**Inference**
+
+Ecological studies enable us to make ecological inferences about effects at the group-level. They do NOT enable us to make inferences about individual risks.
+
+An attempt to infer from the ecological level to the individual level is often called an '**ecological fallacy**'.
+
+- A particular cause can only be responsible for the differences between groups and the differences between individuals within groups if exposure varies both within groups and between groups.
+
+- If every group had the same level of exposure, then the factor could not explain between-group differences in the occurrence of the outcome.
+
+- Similarly, a risk factor can only be responsible for differences in the occurrence of the outcome within a group if exposure to the factor varies within the group.
+
+
+## Strength and weakness
+
+**Strength**
+
+- Ecological studies are the only studies that enable us to investigate the differences between groups. This is extremely important in public health.
+
+- Ecological studies are the only studies that enable us to investigate the effects of group properties or contextual properties.
+
+- Ecological studies can often be carried out relatively quickly and cheaply, using routine or secondary data. Because of this, we often use them as a first step in the investigation of a possible exposure-outcome relationship.
+
+- We can often obtain group-level exposure data in circumstances in which it is difficult or impossible to obtain individual-level exposure data.
+
+- For exposures with substantial within-person variability, group-level exposure data may be more reliable than individual-level exposure data.
+
+**Weaknesses**
+
+- It can be difficult to control for confounding in ecological studies.
+
+- Ecological studies are particularly susceptible to information bias.
+
+- Ecological studies do not enable us to make inferences about the causes of individual risks. However, this is only a weakness if we are interested in investigating individual-level risks.
