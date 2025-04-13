@@ -10,14 +10,14 @@ In an ecological study, the comparison is done at group level while the other st
 
 a group is a collection of two or more persons, can be anything from a household, school or village to a nation or a group of nations. we then use an average exposure for a population and a population level outcome(risk or rate). We don't have information on the outcome and exposure for each individual in the group.
 
-- we look to see whether the outcome is more frequent in groups where the exposure is more frequent.
+we look to see whether the outcome is more frequent in groups where the exposure is more frequent.
 example: compare the skin cancer incidence risk between difference area with different average number sunny hours.
 
-**a) multi-group (geographical) ecological study**
+***a) multi-group (geographical) ecological study***
 
 we compare the rates of an outcome among many geographical groups during the same time period.
 
-**b) time-trend ecological study**
+***b) time-trend ecological study***
 
 we compare the rates of an outcome over time in one geographically defined population.
 
