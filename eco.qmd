@@ -62,7 +62,7 @@ Use ecological studies to generating hypothesis to test in future studies but ca
 
 :::
 
-## Main steps
+## Main steps in conducting an ecological study
 
 After we have decided that an ecological design is appropriate for our particular study question:
 
@@ -78,7 +78,7 @@ After we have decided that an ecological design is appropriate for our particula
 
 - Do **NOT** restrict the study to only **groups where you already know** that the association that you are investigating exists. Selection bias.
 
-**Step 2: Measure group level exposure and outcome**
+**Step 2: Measure group-level exposure and outcome**
 
 Ecological studies often use routine data or data from secondary sources
 
@@ -111,8 +111,9 @@ First: plot a scatterplot
 
 Second: Quantify the association: 
 
-correlation coefficient
-regression
+- Correlation coefficient
+
+- Regression
 
 **Step 4: Interpreting**
 
