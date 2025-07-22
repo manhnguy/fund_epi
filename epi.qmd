@@ -13,7 +13,7 @@ format: html
 ![His study pump](images/john_snow_pump.jpg)
 :::
 
-**Jhon Snow** example: 
+**John Snow** example: 
 For short, in 19th century, cholera expand all over Europe and UK. Estimated 15,000 recorded deaths in London in 1848-9. Snow (an anaesthetist) came up with some hypothesis:
 
 -   that cholera can be communicated from the sick to the healthy
@@ -47,6 +47,48 @@ Epidemiology has four major functions:
 -   to **apply** our results to public health practice, and
 
 -   to **evaluate** the effect of health-related interventions
+
+## Differences between Epidemiology and Public Health
+
+This is a controversial discussion. I tend to think of Public Health as focused on  practice, while Epidemiology is the study of evidence that supports Public Health.
+
+**Epidemiology**
+
+***What it is:*** The science of studying how diseases occur, spread, and can be controlled in populations.
+
+<!-- ***Key functions:*** -->
+
+<!-- Measures incidence and prevalence -->
+
+<!-- Identifies risk factors and disease determinants -->
+
+<!-- Designs and analyzes studies (like cohort, case-control, and outbreak investigations) -->
+
+***Core purpose:*** To understand the distribution (who gets sick, when, and where) and determinants (why and how) of health events, which lays the groundwork for action.
+
+**Public Health**
+
+***What it is:*** A broad discipline focused on promoting health, preventing disease, and prolonging life through organized community efforts.
+
+***Key functions:***
+
+Sets health policies and programs
+
+Implements interventions (like vaccination campaigns and health education)
+
+Monitors health through surveillance
+
+Evaluates policies and programs for effectiveness and equity
+
+***Core purpose:*** To translate evidence into action that improves health at the population level.
+
+**Relationship Between the Two**
+
+| Epidemiology                                | Public Health                                |
+|--------------------------------------------|----------------------------------------------|
+| Provides evidence, trends, and causes       | Uses evidence to develop actionable programs |
+| Identifies health risks and trends          | Implements policies and interventions        |
+| Evaluates risk factors and outcomes         | Focuses on prevention, policy, and health systems |
 
 ## Basic Epidemilogical study types
 ![](images/study_types.gif){fig-align="center"}
