@@ -41,11 +41,11 @@ The cases must be a clear defined group with 3 properties:
 
 We must define the population from which the cases are drawn, because the controls will need to be drawn from the same population. The cases could be:
 
-- all patients who fulfil the case definition who attend a specific hospital within a specified time period
+- all patients who fullfil the case definition who attend a specific hospital within a specified time period
 
 - all patients within a specified population who have the outcome in question within a specified time period. We might need to use multiple sources of data to identify all such patients.
 
-We need to clarify the case group represent all cases in the target population or just a subgroup of cases. If we are studying a common disease, we may not want to study all cases within a given population. If we decide to study a sample of cases, then this sample should be a representative sample of all possible cases who fulfil the case definition within the specified population.
+We need to clarify the case group represent all cases in the target population or just a subgroup of cases. If we are studying a common disease, we may not want to study all cases within a given population. If we decide to study a sample of cases, then this sample should be a representative sample of all possible cases who fullfil the case definition within the specified population.
 
 For some diseases with a spectrum of severity, patients from a hospital population are likely to have more severe disease than those from a primary care setting.
 
@@ -69,7 +69,7 @@ Data sources could be:
 
 - census data
 
-Note: all of these data courses have some limitations, 1 source is unlikely to provide a complete accurate information.
+Note: all of these data sources have some limitations, one source is unlikely to provide a complete accurate information.
 
 2, If cases are derived from a health care facility, many studies use controls from the same health facility. Because these controls are easy to recruit, more likely to participate with less losses of follow up, less risk of recall bias as they have an illness. However, these controls may not be representative of the population which produced the cases and selection bias maybe introduced.
 
@@ -170,7 +170,7 @@ Under certain assumptions, most importantly that the duration of the disease is 
 
 - There may be more than one level of exposure, in which case we calculate an odds ratio for each stratum compared to the baseline. The baseline is often the unexposed group (or lowest level of exposure) but a different stratum may be chosen as a baseline, particularly if there are few cases in the unexposed group (which would make the estimate of disease occurrence in that stratum unreliable.
 
-- An individually matched design requires a matched analysis, and the odds ratio is calculated differently using ‘discordant pairs’. The analysis of individually matched data is discussed in the module Statistics for Epidemiology (EPM102).
+- An individually matched design requires a matched analysis, and the odds ratio is calculated differently using ‘discordant pairs’. 
 
 - Group-matched (or frequency-matched) studies do not need a ‘discordant pairs’ analysis. However, we should still treat the matched variable as a potential confounder, and adjust for it in the normal way through stratification or regression modelling.
 
